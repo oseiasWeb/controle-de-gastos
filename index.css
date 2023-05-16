@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background: rgb(75, 191, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+form{
+    width: 300px;
+}
+
+input {
+    border: none;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 3px;
+    width: -webkit-fill-available; 
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
