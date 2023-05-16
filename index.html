@@ -28,10 +28,10 @@
             <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
         </div>
         <div>
-            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button>
+            <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
         </div>
         <div>
-            <button type="button" class="outline">Registrar</button>
+            <button type="button" class="outline" onclick="register()">Cadastro</button>
         </div>
     </form>
 </body>
@@ -39,5 +39,20 @@
 
 <script src="index.js"></script>
 <script src="validations.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+<script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyDpIktFK0g3dDIcH7rUl_HRHlh9UBmmwhM",
+    authDomain: "controle-de-gastos-92dc0.firebaseapp.com",
+    projectId: "controle-de-gastos-92dc0",
+    storageBucket: "controle-de-gastos-92dc0.appspot.com",
+    messagingSenderId: "1083730480279",
+    appId: "1:1083730480279:web:973089f6902f11e35d6dd2"
+  };
+  firebase.initializeApp(firebaseConfig);
+
+  
+</script>
 
 </html>
