@@ -51,3 +51,10 @@ button[disabled] {
     color: #fff;
     border: 1px solid #fff;   
 }
+
+.error {
+    color: rgb(211, 44, 44);
+    font-size: 12px;
+    font-weight: 600;
+    display: none;
+}
