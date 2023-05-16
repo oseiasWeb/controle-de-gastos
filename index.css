@@ -1,10 +1,7 @@
 body {
     font-family: sans-serif;
     background: rgb(75, 191, 236);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 form{
