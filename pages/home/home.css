@@ -8,5 +8,32 @@ header {
 
 header button {
     width: auto;
+}
 
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    cursor: pointer;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 2px solid #4BBFEC;
+}
+
+ol li:hover {
+    opacity: 0.9;
+}
+
+ol li.expense {
+    border-left: 10px solid rgb(236, 52, 52);
+}
+
+ol li.income {
+    border-left: 10px solid rgb(94, 218, 45);
+}
+
+p {
+    margin: 4px 0;
 }
