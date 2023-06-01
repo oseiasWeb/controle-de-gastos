@@ -71,3 +71,23 @@ button:active {
 button[disabled] {
     opacity: 0.6;
 }
+
+button.fab {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    font-size: 29px;
+    box-shadow: 2px 2px 2px black;
+}
+
+button.fab.fixed {
+    position: fixed;
+} 
+
+button.fab.bottom {
+    bottom: 32px;
+}
+
+button.fab.right{
+    right: 32px;
+}
