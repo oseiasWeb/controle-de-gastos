@@ -33,6 +33,12 @@ function addTransactionsToScreen(transactions) {
         type.innerHTML = transaction.transactionType;
         li.appendChild(type);
 
+        if(transaction.description){
+            const description = document.createElement('p');
+            description.innerHTML = transaction.description;
+            li.appendChild(description);
+        }
+
         orderedList.appendChild(li);
     });
 
