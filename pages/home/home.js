@@ -12,6 +12,9 @@ firebase.auth().onAuthStateChanged(user => {
     }
 })
 
+function newTransaction() {
+    window.location.href = "../transaction/transaction.html"    
+}
 
 function findTransactions(user) {
     showLoading();
